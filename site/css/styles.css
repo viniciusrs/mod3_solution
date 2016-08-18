@@ -2,6 +2,7 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*----HEADER START----*/
 #header-nav{
 	background-color: #34B8FA;
 	border-radius: 0px;
@@ -28,11 +29,16 @@ body{
 
 .navbar-default .navbar-toggle:hover{
 	background-color: white;
-}
+}/*----HEADER END----*/
 
+
+ /*----OUR MENU START ----*/
 #heading{
 	margin-bottom: 50px;
-}
+} /*----OUR MENU END----*/
+
+
+ /*----SECTIONS START----*/
 
 .title{
   position: absolute;
@@ -66,6 +72,6 @@ body{
   border: 1px solid black;
   border-radius: 4px;
   padding-top: 25px;
-}
+}/*----SECTIONS END----*/
 
 
