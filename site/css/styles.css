@@ -1,5 +1,6 @@
 body{
 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #F2F2F2;
 }
 
 /*----HEADER START----*/
@@ -7,7 +8,6 @@ body{
 	background-color: #34B8FA;
 	border-radius: 0px;
 	border: 0px;
-	border-bottom: 1px solid black;
 }
 .navbar-default .navbar-brand{
 	font-size: 2em;
@@ -22,7 +22,6 @@ body{
 }
 
 .navbar-default .navbar-toggle{
-	border: 1px solid black;
 	background-color: #FFBB00;
 	color: black;
 }
@@ -30,6 +29,34 @@ body{
 .navbar-default .navbar-toggle:hover{
 	background-color: white;
 }/*----HEADER END----*/
+
+ /*---- DROPDOWN START----*/
+#nav-list{
+	background-color: #0059FF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#nav-list a{
+	text-align: center;
+	color: #FFBB00;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid white;
+}
+
+#nav-list a:hover{
+	color: white;
+}
+
+#nav-list a:nth-child(1){
+	padding-top: 15px;
+}
+
+#nav-list hr{
+	width: 50%;
+	padding-top: 0px;
+}/*----DROPDOWN END----*
 
 
  /*----OUR MENU START ----*/
@@ -40,27 +67,8 @@ body{
 
  /*----SECTIONS START----*/
 
-.title{
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 100px;
-  height: 20px;
-  text-align: center;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-}
-
-.titleColor1{
-    background-color: #00BFFF;
-}
-
-.titleColor2{
-    background-color: #00FF2F;
-}
-
-.titleColor3{
-    background-color: #FF00CC;
+h3{
+	margin-top: 0px;
 }
 
 .menu{
