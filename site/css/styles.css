@@ -73,10 +73,9 @@ h3{
 
 .menu{
   position: relative;
-  margin: 0px 20px 10px 20px;
   background-color: #ABABAB;
   text-align: left;
-  padding: 0px 0px 10px 10px;
+  padding: 0px 10px 10px 10px;
   border: 1px solid black;
   border-radius: 4px;
   padding-top: 25px;
