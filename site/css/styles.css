@@ -71,7 +71,7 @@ h3{
 	margin-top: 0px;
 }
 
-.menu{
+.menu{	
   position: relative;
   background-color: #ABABAB;
   text-align: left;
@@ -79,6 +79,7 @@ h3{
   border: 1px solid black;
   border-radius: 4px;
   padding-top: 25px;
+  margin-bottom: 40px;
 }/*----SECTIONS END----*/
 
 
